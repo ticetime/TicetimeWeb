@@ -13,12 +13,14 @@
 
 .jumbotron {
     color: #ffffff;
-    background-color: #008bc4;
+    background-color: #65AFE1;
+    padding-top: 16px;
+    padding-bottom: 24px;
 }
 
 .btn-default {
 color: #ffffff;
-background-color: #008BC4;
+background-color: #65AFE1;
 border-color: #cccccc;
 }
 
