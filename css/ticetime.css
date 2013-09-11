@@ -2,10 +2,27 @@
 max-width: 750px;
 }
 
-.navbar-inverse {
-    background-color: #080808;
-    border-color: #080808;
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #adadad;
 }
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #ffffff;
+  color:#B82C6B;
+}
+
+a {
+    color:#4593C9;
+}
+
 
 .container .jumbotron h1  {
     font-family: 'Source Sans Pro', sans-serif;
@@ -17,14 +34,14 @@ max-width: 750px;
 
 .jumbotron {
     color: #ffffff;
-    background-color: #65AFE1;
+    background-color: #4593C9;
     padding-top: 16px;
     padding-bottom: 24px;
 }
 
 .btn-default {
 color: #ffffff;
-background-color: #65AFE1;
+background-color: #4593C9;
 border-color: #cccccc;
 }
 
