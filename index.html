@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro'
+          rel='stylesheet'>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -39,7 +40,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="img/TiceTime_logo_Q.png" width="100"></a>
+                    <a class="navbar-brand" href="#"><img
+                            src="img/TiceTime_logo_Q.png" width="100"></a>
                 </div>
                 <div class="navbar-collapse collapse pull-right">
                     <ul class="nav navbar-nav">
@@ -57,63 +59,95 @@
 </div>
 
 
-
 <!-- Marketing messaging and featurettes
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="pull-right">
-        <a class="twitter-timeline"  href="https://twitter.com/ticetime"  data-widget-id="378055047805804545" width="200" height="500">Tweets de @ticetime</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-    </div>
 <div class="container">
 
-    <div class="jumbotron">
-            <h1>Ticetime</h1>
-            <h3>Apprenants et enseignants, le plaisir de travailler ensemble.</h3>
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+            <p class="pull-right visible-xs">
+                <button type="button" class="btn btn-primary btn-xs"
+                        data-toggle="offcanvas">Toggle nav
+                </button>
+            </p>
+            <div class="jumbotron">
+                <h1>Ticetime</h1>
 
+                <h3>Apprenants et enseignants, le plaisir de travailler
+                    ensemble.</h3></div>
+            <div class="row">
+                <div class="col-6 col-sm-6 col-lg-4">
+                    <img src="img/Elaastic_pictoRVB.png" width="140"
+                         alt="elaastic">
+
+                    <h2>elaastic</h2>
+
+                    <p>elaastic est une application dédiée à la conception et la
+                        diffusion de contenus pédagogiques&nbsp;:&nbsp;un seul
+                        outil pour
+                        créer du contenu et le mettre à disposition.</p>
+
+                    <p><a class="btn btn-default"
+                          href="elaastic.html">En savoir
+                        plus &raquo;</a></p>
+                </div>
+                <!--/span-->
+                <div class="col-6 col-sm-6 col-lg-4">
+                    <img class="img-circle" src="img/accomp_p1.png" width="140"
+                         height="140"
+                         alt="Conseil">
+
+                    <h2>conseil</h2>
+
+                    <p>Fort de plus de quinze ans d'expérience, Ticetime vous
+                        accompagne dans la mise en place de vos projets au
+                        carrefour de l'Éducation et du Numérique</p>
+
+                    <p><a class="btn btn-default" href="accompagnement.html">En
+                        savoir plus &raquo;</a></p>
+                </div>
+                <!--/span-->
+                <div class="col-6 col-sm-6 col-lg-4">
+                    <img class="img-circle" src="img/training_p1.png"
+                         width="140" height="140" alt="Formation">
+
+                    <h2>formation</h2>
+
+                    <p>Passionnés et experts des technologies que nous
+                        utilisons, nous vous proposons des
+                        formations techniques adaptées à vos besoins.</p>
+
+                    <p><a class="btn btn-default" href="formation.html">En
+                        savoir plus &raquo;</a></p>
+                </div>
+                <!--/span-->
+            </div>
+            <!--/row-->
         </div>
+        <!--/span-->
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row text-center">
-        <div class="col-lg-4">
-            <img src="img/Elaastic_pictoRVB.png" width="140"
-                 alt="elaastic" >
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+            <div>
+                <a class="twitter-timeline" href="https://twitter.com/ticetime"
+                   data-widget-id="378055047805804545" width="200" height="500">Tweets
+                    de @ticetime</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
 
-            <h2>elaastic</h2>
-
-            <p>elaastic est une application dédiée à la conception et la
-                diffusion de contenus pédagogiques&nbsp;:&nbsp;un seul outil pour
-                créer du contenu et le mettre à disposition.</p>
-
-            <p><a class="btn btn-default"
-                  href="elaastic.html">En savoir
-                plus &raquo;</a></p>
+            </div>
+            <!--/.well -->
         </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-circle" src="img/accomp_p1.png"  width="140" height="140"
-                  alt="Accompagnement">
-
-            <h2>accompagnement</h2>
-
-            <p>Fort de plus de quinze ans d'expérience, Ticetime vous accompagne dans la mise en place de vos projets au carrefour de l'Éducation et du Numérique</p>
-
-            <p><a class="btn btn-default" href="accompagnement.html">En savoir plus &raquo;</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-circle" src="img/training_p1.png"
-                 width="140" height="140" alt="Formation">
-
-            <h2>formation</h2>
-
-            <p>Passionnés et experts sur les technologies que nous utilisons pour nos projets, nous vous proposons des formations techniques adaptées à vos besoins.</p>
-
-            <p><a class="btn btn-default" href="formation.html">En savoir plus &raquo;</a></p>
-        </div>
-        <!-- /.col-lg-4 -->
+        <!--/span-->
     </div>
+    <!--/row-->
     <!-- /.row -->
 
 
@@ -121,7 +155,8 @@
     <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
 
-        <p>&copy; 2013 Ticetime &middot; <a href="mentions.html">Mentions légales</a></p>
+        <p>&copy; 2013 Ticetime &middot; <a href="mentions.html">Mentions
+            légales</a></p>
     </footer>
 
 </div>
