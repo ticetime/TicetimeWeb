@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.ico">
 
-    <title>Ticetime - accompagnement</title>
+    <title>Ticetime - Formation</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -56,143 +56,184 @@
 
 
 <div class="container">
-    <div class="jumbotron">
-        <h2>Formation</h2>
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+            <div class="jumbotron">
+                <h2>Formation</h2>
+            </div>
+            <div class="container">
+                <h3>Formation et accompagnement Grails</h3>
+
+                <p>
+                    Ticetime propose des formations sur le framework de
+                    développement
+                    d’applications Web <a
+                        href="http://www.grails.org">Grails</a>.
+                    Les membres de Ticetime travaillent depuis plus de dix ans
+                    sur des
+                    systèmes d’information complexes dans le secteur de
+                    l’Éducation (ENT, SI
+                    d’Universités,...) reposant sur des architectures
+                    distribuées Java.
+                    En 2007, le projet ENT Éliot est refondu en utilisant
+                    Grails.
+                    L’expérience et le savoir-faire acquis sur cette technologie
+                    enthousiasmante et notre désir de partage nous ont conduit
+                    naturellement
+                    à proposer des formations et de l’accompagnement sur Grails.
+                    Ci-dessous vous trouverez le programme de la formation
+                    standard. Nous
+                    pouvons adapter la durée et le contenu de cette formation en
+                    fonction de
+                    votre projet et des profils des personnes à former.
+                    <a href="qui.html#contact">Contactez nous</a> pour une étude
+                    ciblée sur votre besoin.
+                </p>
+
+                <h3>Apprendre à développer un module de l'Open ENT</h3>
+
+                <p>
+                    Vous souhaitez développer un module de l’ENT Open Source
+                    déployé au
+                    coeur de Lilie ?
+                    Ticetime vous propose une formation Grails pour développer
+                    rapidement
+                    une extension de l’ENT Open Source.
+                    En plus du programme standard, vous apprendrez à utiliser
+                    les plugins
+                    développés par Ticetime pour le développement de <a
+                        href="https://github.com/ticetime/eliot-tdbase">TD
+                    Base</a>.
+                </p>
+
+                <h3>Au programme de la formation Grails standard...</h3>
+
+                <h5>Introduction</h5>
+
+                <p>
+                    Qu’est ce Grails ?<br>
+                    Les technologies utilisées par Grails<br>
+                    Les concepts clés <br>
+                    La communauté<br>
+                    Les IDE<br>
+                </p>
+
+                <h5>L’essentiel Groovy</h5>
+
+                <p>
+                    Chargement automatique des packages<br>
+                    Les évaluations booléennes<br>
+                    Les scopes<br>
+                    Le traitement des exceptions<br>
+                    Les opérateurs<br>
+                    Les types<br>
+                    « Le sucre syntaxique »<br>
+                    Les Groovy Beans<br>
+                    Les closures<br>
+                </p>
+
+                <h5>La structure des projets Grails</h5>
+
+                <p>
+                    La structure du projet<br>
+                    Les fichiers de configuration<br>
+                    Les environnements<br>
+                </p>
+
+                <h5>Les classes du domaine</h5>
+
+                <p>
+                    Qu’est ce GORM ?<br>
+                    Mapping des attributs<br>
+                    Mapping des relations<br>
+                    Créer, modifier et sauvegarder les objets du domaine<br>
+                    Supprimer des objets du domaine<br>
+                    Créer et tester un service Grails<br>
+                </p>
+
+                <h5>Vues et contrôleurs</h5>
+
+                <p>
+                    Le « Scaffold »<br>
+                    Le mapping URL / action<br>
+                    Les contrôleurs et actions<br>
+                    Actions utilisant « redirect »<br>
+                    Actions utilisant « render »<br>
+                    Les Groovy Server Pages<br>
+                    Création et utilisation d’un layout<br>
+                    Les tags<br>
+                </p>
+
+                <h5>Gorm et les différents types de requête</h5>
+
+                <p>
+                    Les requêtes de type list, get et getAll<br>
+                    Les dynamics finders<br>
+                    Les Criteria<br>
+                    HQL<br>
+                </p>
+
+                <h5>Gorm avancé</h5>
+
+                <p>
+                    La session Hibernate<br>
+                    Optimiser la gestion des relations<br>
+                    Optimistic Locking<br>
+                    Traiter les erreurs provenant de la base<br>
+                    Pessimistic locking<br>
+                    Mapping personnalisé<br>
+                    L’utilisation des caches<br>
+                    Les transactions<br>
+                </p>
+
+                <h5>Scopes, Session et Web Flows</h5>
+
+                <p>
+                    Les scopes request, flash, session et servletContext<br>
+                    La session<br>
+                    Les web flows<br>
+                </p>
+
+                <h5>Les filtres</h5>
+
+                <p>
+                    A quoi servent les filtres ?<br>
+                    Les règles applicables<br>
+                    Exemples<br>
+                </p>
+
+                <h5>Introduction aux plugins</h5>
+
+                <p>
+                    A quoi servent les plugins ?<br>
+                    Créer un plugin<br>
+                    Utiliser un plugin<br>
+                </p></div>
+            <!--/row-->
+        </div>
+        <!--/span-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+            <div>
+                <a class="twitter-timeline" href="https://twitter.com/ticetime"
+                   data-widget-id="378055047805804545" width="200" height="500">Tweets
+                    de @ticetime</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
+
+            </div>
+            <!--/.well -->
+        </div>
+        <!--/span-->
     </div>
 
-    <h3>Formation et accompagnement Grails</h3>
-
-    <p>
-        Ticetime propose des formations sur le framework de développement
-        d’applications Web <a href="http://www.grails.org">Grails</a>.
-        Les membres de Ticetime travaillent depuis plus de dix ans sur des
-        systèmes d’information complexes dans le secteur de l’Éducation (ENT, SI
-        d’Universités,...) reposant sur des architectures distribuées Java.
-        En 2007, le projet ENT Éliot est refondu en utilisant Grails.
-        L’expérience et le savoir-faire acquis sur cette technologie
-        enthousiasmante et notre désir de partage nous ont conduit naturellement
-        à proposer des formations et de l’accompagnement sur Grails.
-        Ci-dessous vous trouverez le programme de la formation standard. Nous
-        pouvons adapter la durée et le contenu de cette formation en fonction de
-        votre projet et des profils des personnes à former.
-        <a href="qui.html#contact">Contactez nous</a> pour une étude ciblée sur votre besoin.
-    </p>
-
-    <h3>Apprendre à développer un module de l'Open ENT</h3>
-
-    <p>
-        Vous souhaitez développer un module de l’ENT Open Source déployé au
-        coeur de Lilie ?
-        Ticetime vous propose une formation Grails pour développer rapidement
-        une extension de l’ENT Open Source.
-        En plus du programme standard, vous apprendrez à utiliser les plugins
-        développés par Ticetime pour le développement de <a
-            href="https://github.com/ticetime/eliot-tdbase">TD Base</a>.
-    </p>
-
-    <h3>Au programme de la formation Grails standard...</h3>
-
-    <h5>Introduction</h5>
-
-    <p>
-        Qu’est ce Grails ?<br>
-        Les technologies utilisées par Grails<br>
-        Les concepts clés <br>
-        La communauté<br>
-        Les IDE<br>
-    </p>
-
-    <h5>L’essentiel Groovy</h5>
-
-    <p>
-        Chargement automatique des packages<br>
-        Les évaluations booléennes<br>
-        Les scopes<br>
-        Le traitement des exceptions<br>
-        Les opérateurs<br>
-        Les types<br>
-        « Le sucre syntaxique »<br>
-        Les Groovy Beans<br>
-        Les closures<br>
-    </p>
-
-    <h5>La structure des projets Grails</h5>
-
-    <p>
-        La structure du projet<br>
-        Les fichiers de configuration<br>
-        Les environnements<br>
-    </p>
-
-    <h5>Les classes du domaine</h5>
-
-    <p>
-        Qu’est ce GORM ?<br>
-        Mapping des attributs<br>
-        Mapping des relations<br>
-        Créer, modifier et sauvegarder les objets du domaine<br>
-        Supprimer des objets du domaine<br>
-        Créer et tester un service Grails<br>
-    </p>
-
-    <h5>Vues et contrôleurs</h5>
-
-    <p>
-        Le « Scaffold »<br>
-        Le mapping URL / action<br>
-        Les contrôleurs et actions<br>
-        Actions utilisant « redirect »<br>
-        Actions utilisant « render »<br>
-        Les Groovy Server Pages<br>
-        Création et utilisation d’un layout<br>
-        Les tags<br>
-    </p>
-
-    <h5>Gorm et les différents types de requête</h5>
-
-    <p>
-        Les requêtes de type list, get et getAll<br>
-        Les dynamics finders<br>
-        Les Criteria<br>
-        HQL<br>
-    </p>
-
-    <h5>Gorm avancé</h5>
-
-    <p>
-        La session Hibernate<br>
-        Optimiser la gestion des relations<br>
-        Optimistic Locking<br>
-        Traiter les erreurs provenant de la base<br>
-        Pessimistic locking<br>
-        Mapping personnalisé<br>
-        L’utilisation des caches<br>
-        Les transactions<br>
-    </p>
-
-    <h5>Scopes, Session et Web Flows</h5>
-
-    <p>
-        Les scopes request, flash, session et servletContext<br>
-        La session<br>
-        Les web flows<br>
-    </p>
-
-    <h5>Les filtres</h5>
-
-    <p>
-        A quoi servent les filtres ?<br>
-        Les règles applicables<br>
-        Exemples<br>
-    </p>
-
-    <h5>Introduction aux plugins</h5>
-
-    <p>
-        A quoi servent les plugins ?<br>
-        Créer un plugin<br>
-        Utiliser un plugin<br>
-    </p>
 
     <!-- FOOTER -->
     <footer>
