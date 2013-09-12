@@ -1,5 +1,5 @@
 .container {
-max-width: 750px;
+max-width: 970px;
 }
 
 .btn-default:hover,
@@ -17,6 +17,10 @@ max-width: 750px;
   text-decoration: none;
   background-color: #ffffff;
   color:#B82C6B;
+}
+
+.navbar-toggle {
+    background-color: #4593C9;
 }
 
 a {
