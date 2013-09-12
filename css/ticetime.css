@@ -23,6 +23,10 @@ max-width: 970px;
     background-color: #4593C9;
 }
 
+.icon-bar {
+    background-color: #ffffff;
+}
+
 a {
     color:#4593C9;
 }
